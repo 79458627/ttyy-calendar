@@ -5,10 +5,6 @@ APPID：wx6b6cb15df2836ebe
 版本号：1.0.0
 名称：天天预约日历
 
-#### 插件效果演示
-![QQ20180525-153104.gif](https://upload-images.jianshu.io/upload_images/1853320-5b3671332b48a79c.gif?imageMogr2/auto-orient/strip)
-
-
 #### 1.申请使用插件
 
 在使用插件前，首先要在小程序管理后台的“设置-第三方服务-插件管理”中添加插件。开发者可登录小程序管理后台，通过 appId 查找插件并添加。插件开发者通过申请后，方可在小程序中使用相应的插件。
