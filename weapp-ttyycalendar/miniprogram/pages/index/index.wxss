@@ -1,0 +1,49 @@
+page {
+  min-height: 100vh;
+  background:#f6f8f9;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background:#f6f8f9;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.top_view {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:PingFangSC-Regular;
+  font-size:28rpx;
+  color:#2c2b28;
+  letter-spacing:0;
+}
+.cell_view {
+  background:#ffffff;
+  width:100%;
+  height:100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+}
+.title_text {
+  font-family:PingFangSC-Regular;
+  font-size:28rpx;
+  color:#2c2b28;
+  letter-spacing:0;
+  text-align:left;
+}
+.subtitle_text {
+  font-family:DINAlternate-Bold;
+  font-size:28rpx;
+  color:#2c2b28;
+  letter-spacing:0;
+  text-align:right;
+}
