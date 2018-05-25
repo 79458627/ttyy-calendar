@@ -1,0 +1,9 @@
+<view class='container'>
+  <view class='top_view'>Demo·演示</view>
+  <view class='cell_view' bindtap='cellClick'>
+    <text class='title_text'>选择时间</text>
+    <text class='subtitle_text'>{{dateStr}}</text>
+  </view>
+  <yycalendar show='{{isShow}}' beginTime="08:00" endTime="22:00" timeGap="1" bind:yybindchange="_yybindchange"/>
+
+</view>

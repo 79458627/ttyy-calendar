@@ -1,0 +1,11 @@
+{
+	"miniprogramRoot": "./miniprogram",
+	"pluginRoot": "./plugin",
+	"compileType": "plugin",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wx6b6cb15df2836ebe",
+	"projectname": "weapp-ttyycalendar",
+	"condition": {}
+}

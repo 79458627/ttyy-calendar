@@ -1,0 +1,6 @@
+{
+  "publicComponents": {
+    "yycalendar": "components/yycalendar/yycalendar"
+  },
+  "main": "index.js"
+}

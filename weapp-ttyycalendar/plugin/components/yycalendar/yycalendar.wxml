@@ -1,0 +1,29 @@
+<!--plugin/components/yycalendar/yycalendar.wxml-->
+<view class='yycalendar_super_view' wx:if = "{{show}}">
+  <view class='yycalendar_bg_view'></view>
+  <view class='yycalendar_content_view'>
+    <view class='yycalendar_top1_view'>
+      <text class='yycalendar_top_title_text'>选择预约时间</text>
+      <image class='yycalendar_top_del_img' src='/images/del_icon.png' bindtap='delClick'></image>
+    </view>
+    <view class='yycalendar_top2_view'>
+      <view class="{{timeRangeInfo.newtimeStamp <= timeRangeInfo.timeStamp ? 'yycalendar_changebtn_view' : 'yycalendar_changebtn_view_s'}}" bindtap="{{timeRangeInfo.newtimeStamp <= timeRangeInfo.timeStamp ? '' : '_lastDay'}}">前一天</view>
+      <view class='yycalendar_top2_center_view'>
+        <view class='yycalendar_top2_center_title'>{{timeRangeInfo.month}}.{{timeRangeInfo.day}}</view>
+        <view class='yycalendar_top2_center_subtitle'>{{timeRangeInfo.week}}</view>
+      </view>
+      <view class='yycalendar_changebtn_view_s' bindtap='_nextDay'>后一天</view>
+    </view>
+    <view class='yycalendar_time_view'>
+      <scroll-view scroll-y="true">
+        <view class='scroll_super_view'>
+          <block wx:for="{{timeRangeInfo.list}}" wx:key=''>
+            <view class="{{item.isDisabled ? 'time_item_view_disabled' : (item.checked ? 'time_item_view_checked' : 'time_item_view')}}" style="margin-right: {{(index + 1) % 4 == 0 ? '0rpx;' : '23rpx;'}}" bindtap="{{item.isDisabled ? '' : '_checkedClick'}}" data-idx='{{index}}'>{{item.timeStr}}</view>
+          </block>
+        </view>
+      </scroll-view>
+    </view>
+    <view class='yycalendar_bottombtn_view' bindtap='_bottomBtnClick'>确定</view>
+  </view>
+</view>
+
