@@ -1,4 +1,4 @@
-# ttyy-calender
+# ttyy-calendar
 #### 天天预约-微信小程序-预约日历插件
 
 APPID：wx6b6cb15df2836ebe
