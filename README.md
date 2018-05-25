@@ -58,8 +58,8 @@ APPID：wx6b6cb15df2836ebe
 #### 插件参数解释
 
 ```
-beginTime: {
-      type: String, // 开始时间
+    beginTime: {
+      type: String, 	// 开始时间
       value: '09:00'
     },
     endTime: {
@@ -71,9 +71,8 @@ beginTime: {
       value: 60
     },
     show: {
-      type: Boolean, // 显示或隐藏遮罩
+      type: Boolean, 	// 显示或隐藏遮罩
       value: false
     }
-}
 ```
 
