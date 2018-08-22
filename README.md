@@ -2,7 +2,7 @@
 #### 天天预约-微信小程序-预约日历插件
 
 APPID：wx6b6cb15df2836ebe
-版本号：1.0.0
+版本号：1.0.1
 名称：天天预约日历
 
 #### 插件效果演示
@@ -23,7 +23,7 @@ APPID：wx6b6cb15df2836ebe
 {
   "plugins": {
     "myPlugin": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "provider": "wx6b6cb15df2836ebe"
     }
   }
