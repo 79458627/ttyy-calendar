@@ -2,7 +2,7 @@
 #### 天天预约-微信小程序-预约日历插件
 
 APPID：wx6b6cb15df2836ebe
-版本号：1.0.1
+版本号：1.0.2
 名称：天天预约日历
 
 #### 插件效果演示
@@ -23,7 +23,7 @@ APPID：wx6b6cb15df2836ebe
 {
   "plugins": {
     "myPlugin": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "provider": "wx6b6cb15df2836ebe"
     }
   }
@@ -50,11 +50,16 @@ APPID：wx6b6cb15df2836ebe
 
 ```
 <yycalendar 
-	show='{{isShow}}' 
+	show="false" 
 	beginTime="08:00" 
 	endTime="06:00" 
 	timeGap="60" 
-	bind:yybindchange="_yybindchange"/>
+	themeColor="red"
+	showOverdue="false"
+	bind:yybindchange="_yybindchange"
+	bind:yybindhide="_yybindhide"/>
+// bind:yybindchange  值改变事件
+// bind:yybindhide    隐藏事件	
 ```
 
 
@@ -77,6 +82,14 @@ APPID：wx6b6cb15df2836ebe
     show: {
       type: Boolean, 	// 显示或隐藏遮罩
       value: false
+    },
+    showOverdue: {      // 显示或隐藏过期时间
+      type: Boolean,
+      value: true
+    },
+    themeColor: {       // 主题颜色
+      type: String,
+      value: '#ffd00a'
     }
 ```
 
