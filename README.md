@@ -94,4 +94,4 @@ APPID：wx6b6cb15df2836ebe
 ```
 
 ## 问题反馈群，加群请注明“日历插件用户”
-![demo](https://github.com/79458627/ttyy-calendar/blob/master/img/WechatIMG56.png)
+![demo](https://github.com/79458627/ttyy-calendar/blob/master/img/WechatIMG567.png)
